@@ -10,21 +10,57 @@
   margin-right: auto;
 }
 
-#nav-links {
+main {
+  /* rem stands for 'root em', a unit of measurement that represents the font size of the root element;
+  1rem equals the font size of the html element, which for most browsers has a default value of 16px;
+  using rem ensures consistency of font size and spacing throughout your UI*/
+  padding: 1rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2d4952;
+  font-weight: bold;
+  color: bisque;
+}
+
+/* #nav-links {
   position: fixed;
   background-color: #500f7f;
-  transition: width 200ms ease;
+  transition: width 200ms ease; */
   /*CSS overflow property controls what happens to content that is too big to fit into an area */
-  overflow: default;
+  /* overflow: default;
 }
 
 .navbar-nav {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
 }
+
+.nav-item {
+  width: 100%;
+} */
 
