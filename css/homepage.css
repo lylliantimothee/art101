@@ -10,6 +10,10 @@
   margin-right: auto;
 }
 
+.cat-photo:hover {
+  border: dotted 10px teal;
+}
+
 main {
   /* rem stands for 'root em', a unit of measurement that represents the font size of the root element;
   1rem equals the font size of the html element, which for most browsers has a default value of 16px;

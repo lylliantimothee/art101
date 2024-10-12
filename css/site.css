@@ -3,6 +3,17 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+
+.cat-photo {
+  margin: 10px;
+  max-width: 15rem;
+  border: solid 2px #e71d1d;
+  /*CSS property 'display: block' is used to change the default behavior of an elemnt from inline to block-level*/ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   background-color: #50808E;
 }
@@ -35,4 +46,27 @@ h1 {
   background-color: #A3C9A8;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2d4952;
+  font-weight: bold;
+  color: bisque;
+}
