@@ -10,3 +10,21 @@
   margin-right: auto;
 }
 
+#nav-links {
+  position: fixed;
+  background-color: #500f7f;
+  transition: width 200ms ease;
+  /*CSS overflow property controls what happens to content that is too big to fit into an area */
+  overflow: default;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
