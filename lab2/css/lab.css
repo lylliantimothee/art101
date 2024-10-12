@@ -13,8 +13,9 @@ body {
 }
 
 #content {
-  font-size: px;
+  font-size: 15px;
   border: dotted 5px turquoise;
+  background-color: rgb(40, 79, 40);
 }
 
 h1 {
