@@ -3,15 +3,17 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+.cat-photo:hover {
+  border: dotted 10px teal;
+}
 
-.cat-photo {
-  margin: 10px;
-  max-width: 15rem;
-  border: solid 2px #e71d1d;
-  /*CSS property 'display: block' is used to change the default behavior of an elemnt from inline to block-level*/ 
+#mememe {
+  max-width: 400px;
+  border: dashed 3px rgb(33, 33, 90);
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 body {
