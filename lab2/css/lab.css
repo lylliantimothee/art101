@@ -28,8 +28,9 @@ p {
   font-weight: bold;
 }
 
-img {
+.inscrypt {
   max-width: 500px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
