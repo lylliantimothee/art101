@@ -10,14 +10,14 @@
   margin-right: auto;
 }
 
-#mememe {
+/* #mememe {
   max-width: 400px;
   border: dashed 3px rgb(33, 33, 90);
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-}
+} */
 
 .cat-photo:hover {
   border: dotted 10px teal;
