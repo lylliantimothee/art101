@@ -8,7 +8,7 @@
 }
 
 #portrait {
-  max-width: 50%;
+  width: 50%;
   border: dashed 3px rgb(33, 33, 90);
   display: block;
   margin-left: auto;
