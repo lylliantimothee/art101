@@ -8,6 +8,15 @@
     background-color: #DDD8C4;
 }
 
+pre {
+  text-align: left;
+  white-space: pre-line;
+}
+
+.hanging {
+  float: right;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
