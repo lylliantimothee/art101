@@ -8,6 +8,18 @@
     background-color: #DDD8C4;
 }
 
+.fairy {
+  border: dashed 4px grey;
+  float: right;
+  width: 500px;
+  display: inline;
+  margin-left: 10px;
+}
+
+#fair {
+  margin-bottom: 200px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
