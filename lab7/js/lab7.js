@@ -1,6 +1,6 @@
 // index.js - purpose and description here
 // Author: Lyllian Timothee
-// Date: 10/24/2024
+// Date: 10/28/2024
 
 // Constants
 
@@ -13,23 +13,23 @@ function myFunction(param1, param2) {
 }
 
 function wisely() {
-  userName = window.prompt("Your name please. I wish to fix its orientation.");
+  var userName = window.prompt("Your name please. I wish to fix its orientation.");
   console.log("Username = ", userName);
 
-  nameArray = userName.split('');
+  var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
 
-  nameArraySort = nameArray.sort();
+  var nameArraySort = nameArray.sort();
   console.log("nameArraySort =", nameArraySort);
 
-  nameSorted = nameArraySort.join('');
+  var nameSorted = nameArraySort.join('');
   console.log("nameSorted =", nameSorted);
 
   return nameSorted;
 
 }
 
-document.writeln("Name fixed now bye: ", sortUserName(), "</br>");
+document.writeln("Name fixed now bye: ", wisely(), "</br>");
 
 function main() {
   console.log("Main function started.");
