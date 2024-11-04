@@ -32,3 +32,25 @@
   font-weight: bold;
   color: bisque;
 }
+
+.special {
+  background-color: rgb(184, 85, 85);
+  border: dotted 3px rgb(235, 180, 207);
+  color: rgb(235, 180, 207);
+  font-weight: bold;
+}
+
+button {
+  border-radius: 12px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(184, 85, 85);
+  color: rgb(235, 180, 207);
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.normal {
+  background-color: #DDD8C4;
+  color: black;
+}
