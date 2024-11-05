@@ -12,33 +12,34 @@ function myFunction(param1, param2) {
   // return results;
 }
 
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
-$("#button-challenge").click(function() {
-  $("#challenge").toggleClass("special");
-  $("#button-challenge").toggleClass("normal")
+$(".minor-section").append("<button id='button-minsec'>Make Special</button>");
+$(".minor-section button").click(function() {
+  $(this).parent().toggleClass("special");
+  $(this).toggleClass("normal");
+  // $("#button-challenge").toggleClass("normal")
 
-});
+})
 
-$("#problems").append("<button id='button-problems'>Make Special</button>");
-$("#button-problems").click(function() {
-  $("#problems").toggleClass("special");
-  $("#button-problems").toggleClass("normal");
+// $("#problems").append("<button id='button-problems'>Make Special</button>");
+// $("#button-problems").click(function() {
+//   $("#problems").toggleClass("special");
+//   $("#button-problems").toggleClass("normal");
 
-});
+// });
 
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
-$("#button-reflection").click(function() {
-  $("#reflection").toggleClass("special");
-  $("#button-reflection").toggleClass("normal");
+// $("#reflection").append("<button id='button-reflection'>Make Special</button>");
+// $("#button-reflection").click(function() {
+//   $("#reflection").toggleClass("special");
+//   $("#button-reflection").toggleClass("normal");
 
-});
+// });
 
-$("#results").append("<button id='button-results'>Make Special</button>");
-$("#button-results").click(function() {
-  $("#results").toggleClass("special");
-  $("#button-results").toggleClass("normal");
+// $("#results").append("<button id='button-results'>Make Special</button>");
+// $("#button-results").click(function() {
+//   $("#results").toggleClass("special");
+//   $("#button-results").toggleClass("normal");
 
-});
+// });
 
 function defaultName() {
 
