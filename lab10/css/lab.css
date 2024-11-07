@@ -32,3 +32,17 @@
   font-weight: bold;
   color: bisque;
 }
+
+button {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(177, 98, 201);
+  color: rgb(48, 23, 23);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+}
