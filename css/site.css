@@ -73,30 +73,61 @@ h1 {
   color: bisque;
 }
 
-/* .bunch-labs {
+.bunch-labs {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.bunch-labs .bunch {
   font-size: 17px;
   border: none;
   outline: none;
   color: white;
-  padding: 12px 16px;
+  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.bunch-labs a {
-  float: none;
+.bunch-labs:hover .bunch {
+  background-color: #ddd;
   color: black;
+}
+
+.bunch-labs-stuff {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  /* new */
+  
+  /* transition: all .5s ease; */
+  /* new */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* new */
+.bunch-labs-stuff:hover {
+  height: 220px;
+}
+/* new */
+
+.bunch-labs-stuff a {
+  float: none;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   color: #f2f2f2;
   text-align: left;
-} */
+}
 
-/* .bunch-labs a {
-  color: #f2f2f2;
+.bunch-labs:hover .bunch-labs-stuff {
   display: block;
-  padding: 5px 20px;
-} */
+}
+
+/* new */
+
+
 
