@@ -32,3 +32,10 @@
   font-weight: bold;
   color: bisque;
 }
+
+#thing p {
+  color: crimson;
+  font-weight: bold;
+  font-family: "Garamond Cursive";
+  font-size: larger;
+}
