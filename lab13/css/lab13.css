@@ -32,3 +32,11 @@
   font-weight: bold;
   color: bisque;
 }
+
+#output {
+  column-width: 10rem;
+}
+
+div input {
+  width: 30px;
+}
