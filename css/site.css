@@ -76,7 +76,6 @@ h1 {
 .bunch-labs {
   float: left;
   overflow: hidden;
-  
 }
 
 .bunch-labs .bunch {
@@ -109,9 +108,9 @@ h1 {
 }
 
 /* new */
-.bunch-labs-stuff:hover {
+/* .bunch-labs-stuff:hover {
   height: 220px;
-}
+} */
 /* new */
 
 .bunch-labs-stuff a {

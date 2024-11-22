@@ -32,3 +32,9 @@
   font-weight: bold;
   color: bisque;
 }
+
+#hum, #screen {
+  border:#2d4952;
+  border-width: 4px;
+  max-width: 40%;
+}
