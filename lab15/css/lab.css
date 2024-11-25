@@ -32,3 +32,24 @@
   font-weight: bold;
   color: bisque;
 }
+
+pre {
+  font-family: 'Lucida Grande';
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+#results {
+  background-image: url("../img/chuck.jpg");
+  border-radius: 12px;
+  padding: 20px;
+}
+
+#results > h2, #output > h3 {
+  color: white;
+  background-color: #333;
+  max-width: min-content;
+}
