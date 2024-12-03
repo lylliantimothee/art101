@@ -39,7 +39,7 @@ let ajaxConfig = {
                     success: function(comicObj) {
                         // do stuff
                         console.log(comicObj);
-                        $("#output").append("<h3>Stands</h3>");
+                        $("#output").append("<h3>Stand</h3>");
                         $("#output").append("<p>Number: " + comicObj.id + "</p>");
                         $("#output").append("<p>Name: " + comicObj.name + "</p>");
                         $("#output").append("<p>Alternate Name: " + comicObj.alternateName + "</p>");
