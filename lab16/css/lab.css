@@ -32,3 +32,19 @@
   font-weight: bold;
   color: bisque;
 }
+
+#the-world {
+  float: right;
+}
+
+body {
+  overflow: auto;
+}
+
+#output {
+  height: 700px;
+}
+
+#output p {
+  column-count: 2;
+}
